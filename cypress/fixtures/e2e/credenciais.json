@@ -1,0 +1,12 @@
+{
+    "usuario": {
+        "email": "fulano@qa.com",
+        "senha": "teste"
+    },
+    "cadastro": {
+        "nome": "Fulano da Silva",
+        "email": "beltrano@qa.com.br",
+        "password": "teste",
+        "administrador": "true"
+    }
+}
