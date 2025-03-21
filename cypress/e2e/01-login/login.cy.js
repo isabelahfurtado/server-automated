@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-import {usuario}  from '../../../fixtures/e2e/credenciais.json'
+import {usuario}  from '../../fixtures/e2e/credenciais.json'
 
 
 describe('Teste E2E - Login Frontend', () => {

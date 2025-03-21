@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
-import {cadastro}  from '../../../fixtures/e2e/credenciais.json'
-const commands = require('../../../support/commands')
+import {cadastro}  from '../../fixtures/e2e/credenciais.json'
+const commands = require('../../support/commands')
 
 let nome;
 let email;
@@ -24,11 +24,13 @@ describe('Teste E2E - Cadastro pela tela de Login Frontend', () => {
     });
     it('Cadastro com  usuario não já cadastrado', () => {
         const nome = commands.gerarTextoAleatorio()
-        const email = commads.gerarEmailValido()
+        const email = commands.gerarEmailValido()
         const senha = commands.gerarSenhaValida()
        
 
         cy.cadastrarUsuario(nome, email, senha)
+
+        cy.get('#navbarTogglerDemo01 > .imagem').should('be.visible')
 
      
 

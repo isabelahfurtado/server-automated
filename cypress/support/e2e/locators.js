@@ -12,14 +12,12 @@ const locators = {
         CADASTRAR:'[data-testid="cadastrar"]',
         ADMINBOX:'#checkbox'
     },
-    CADASTRO_PRODUTO:{
-        NOME:'#nome',
-        PRECO:'preco',
-        DESCRICAO:'#descricao',
-        QUANTIDADE:'#quantity',
-        IMAGEM:'#imagem',
-        CADASTRAR:'#cadastrar'
-
+    PAGINA_INCIAL:{
+        CADASTRARUSUARIOS: '[data-testid="cadastrarUsuarios"]',
+        LISTARUSUARIOS: '[data-testid="listarUsuarios"]',
+        CADASTRARPRODUTOS: '[data-testid="cadastrarProdutos"]',
+        LISTARPRODUTOS: '[data-testid="listarProdutos"]',
+        RELATORIOS: '[data-testid="relatorios"]'
     }
 
 

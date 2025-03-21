@@ -17,3 +17,5 @@
 import './commands'
 import './e2e/loginCommands'
 import './e2e/cadastroCommands'
+import './e2e/paginaInicialCommands'
+import 'cypress-mochawesome-reporter/register'
